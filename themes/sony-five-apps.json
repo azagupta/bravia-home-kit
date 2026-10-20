@@ -1,0 +1,19 @@
+{
+  "dock_apps": [
+    "com.netflix.ninja",
+    "com.spotify.tv.android",
+    "com.amazon.amazonvideo.livingroom",
+    "com.google.android.youtube.tv",
+    "lab.tv.sky"
+  ],
+  "columns": 5,
+  "fill_dock": false,
+  "live_tv_package": "com.sony.dtv.tvx",
+  "hidden_apps": [],
+  "wallpaper": true,
+  "wallpaper_rotation_minutes": 0,
+  "wallpaper_dim": 20,
+  "reduced_motion": true,
+  "module_cards": false,
+  "app_library": true
+}

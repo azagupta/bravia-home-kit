@@ -1,0 +1,14 @@
+.local/
+**/build/
+**/__pycache__/
+*.pyc
+*.log
+*.keystore
+*.jks
+*.apk
+*.aab
+.env
+.env.*
+local.properties
+.DS_Store
+backups/
