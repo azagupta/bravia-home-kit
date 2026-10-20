@@ -16,7 +16,27 @@ The home screen comes from **[CleanYourTV by Gathin](https://github.com/Gathin23
 - Optional scrcpy mirroring with a persistent TV-side badge, a notification, and a TV-side stop control.
 - Optional Tailscale access without exposing ADB to the public internet.
 
-No device dumps, network addresses, account identifiers, keys, third-party APKs, personal screenshots or wallpaper images are bundled. Supply your own wallpaper.
+Device dumps, network addresses, account identifiers, signing keys and third-party APKs are excluded. Selected home-screen previews and wallpapers are included below; they contain no network or account details.
+
+## Preview
+
+![Samurai home screen](docs/images/samurai-home.png)
+
+![Nature home screen](docs/images/nature-home.png)
+
+The small sharing badge stays visible on the TV while the Mac viewer is running:
+
+![Screen-sharing indicator](docs/images/sharing-indicator.png)
+
+## Wallpapers
+
+Choose the included samurai wallpaper or a nature image from [`wallpapers/`](wallpapers/). To apply one after installing the launcher:
+
+```sh
+python3 tvkit.py theme themes/sony-five-apps.json --wallpaper wallpapers/samurai.jpg
+```
+
+The sample theme uses a fixed wallpaper. For automatic rotation, see [CleanYourTV’s theme instructions](upstream/cleanyourtv/themes/README.md). Image provenance and licence information are in [`wallpapers/README.md`](wallpapers/README.md).
 
 ## Requirements
 
